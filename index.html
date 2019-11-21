@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Toges: More than Chess Games</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style type="text/css"></style>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a href="#Home">
+          <figure class="image is-64x64">
+            <img src="imgs/logo.png" />
+          </figure>
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger burger topNavbarButton"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu topNavbar">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <!-- TIP: add is-active to hightlight current active page -->
+            <a href="#Home" class="navbar-item">
+              Home
+            </a>
+
+            <a href="#Gameboards" class="navbar-item">
+              Gameboards
+            </a>
+
+            <a href="#Services" class="navbar-item">
+              Services
+            </a>
+
+            <a href="#Contact" class="navbar-item">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- --- -->
+
+    <!-- HERO -->
+    <section class="hero is-primary is-fullheight bg-img">
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body" id="Home">
+        <div
+          class="container has-text-centered column is-half"
+          data-aos="fade-up"
+          data-aos-duration="700"
+        >
+          <img src="imgs/horse.png" width="150px" />
+          <h1 class="title">
+            Delightful Chess Sets
+          </h1>
+          <h2 class="subtitle">
+            Food for your brain, joy for your fingers!
+          </h2>
+          <a href="#Gameboards">
+            <button class="button is-danger">
+              See More
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- HERO END -->
+
+    <!-- --- -->
+
+    <!-- SECTION half image / half copy -->
+    <section class="section">
+      <div class="columns">
+        <div class="column is-one-third">
+          <figure class="image is-square is-half">
+            <img src="imgs/sectionHalf.jpg" />
+          </figure>
+        </div>
+        <div class="column">
+          <div class="container is-half">
+            <h1 class="title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+            </h1>
+            <h2 class="subtitle">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum.
+            </h2>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit. Ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate trideta storacalaperda mastiro dolore
+              eu fugiat nulla pariatur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION half image / half copy END -->
+
+    <!-- --- -->
+
+    <!-- SECTION portfolio: Our Games -->
+    <section class="section" id="Gameboards">
+      <h1 class="title">
+        Our Games
+      </h1>
+      <div class="columns is-gapless is-multiline">
+        <div class="columns is-gapless is-marginless">
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/9QnFO9ezytU"
+                alt="chess set 1"
+              />
+            </figure>
+          </div>
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/SIKCOftUa8Y"
+                alt="chess set 2"
+              />
+            </figure>
+          </div>
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/ItphH2lGzuI"
+                alt="chess set 3"
+              />
+            </figure>
+          </div>
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                src="https://source.unsplash.com/h1ShPXfHbTw"
+                alt="chess set 4"
+              />
+            </figure>
+          </div>
+        </div>
+        <div class="columns is-gapless">
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/qrp3APQF15g"
+                alt="chess set 5"
+              />
+            </figure>
+          </div>
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/_P6Fr0D5U4Q"
+                alt="chess set 6"
+              />
+            </figure>
+          </div>
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/G1yhU1Ej-9A"
+                alt="chess set 7"
+              />
+            </figure>
+          </div>
+          <div class="column is-one-quarter" data-aos="fade-up">
+            <figure class="image">
+              <img
+                class="lazy"
+                data-src="https://source.unsplash.com/shQ28n2gQp4"
+                alt="chess set 8"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION Portfolio: Our Games END -->
+
+    <!-- --- -->
+
+    <!-- SECTION Our Services -->
+    <section class="section" id="Services">
+      <div class="container">
+        <h1 class="title">Games with Passion</h1>
+        <h2 class="subtitle">
+          A simple container to divide your page into <strong>sections</strong>,
+          like the one you're currently reading
+        </h2>
+
+        <div class="columns">
+          <div class="column is-half">
+            <div class="card" data-aos="fade-right">
+              <div class="card-content is-pulled-left">
+                <figure class="image is-64x64 is-pulled-left">
+                  <img
+                    src="https://img.icons8.com/ultraviolet/80/000000/person-male.png"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <h2 class="subtitle">Lorem Ipsum 1</h2>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata nodera
+                  clas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-half">
+            <div class="card" data-aos="fade-left">
+              <div class="card-content is-pulled-left">
+                <figure class="image is-64x64 is-pulled-left">
+                  <img
+                    src="https://img.icons8.com/cotton/64/000000/wood--v1.png"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <h2 class="subtitle">Lorem Ipsum 2</h2>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata nodera
+                  clas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-half">
+            <div class="card" data-aos="fade-right">
+              <div class="card-content is-pulled-left">
+                <figure class="image is-64x64 is-pulled-left">
+                  <img src="https://img.icons8.com/dusk/64/000000/chess.png" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <h2 class="subtitle">Lorem Ipsum 3</h2>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata nodera
+                  clas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column is-half">
+            <div class="card" data-aos="fade-left">
+              <div class="card-content is-pulled-left">
+                <figure class="image is-64x64 is-pulled-left">
+                  <img src="https://img.icons8.com/cotton/64/000000/tree.png" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <h2 class="subtitle">Lorem Ipsum 4</h2>
+                <p>
+                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
+                  ut aliquip ex ea commodo consequat tarad limino ata nodera
+                  clas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION Our Services END -->
+
+    <!-- --- -->
+
+    <!-- SECTION Testimonials -->
+    <section class="section">
+      <h1 class="title">
+        Testimonials
+      </h1>
+      <div class="columns content has-text-centered">
+        <div class="column is-one-third">
+          <div class="card" data-aos="flip-left">
+            <div class="card-content">
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+                <br />
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+
+              <div class="card-content is-flex is-horizontal-center-c">
+                <figure class="image is-96x96 ">
+                  <img
+                    src="https://bulma.io/images/placeholders/96x96.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card" data-aos="flip-left" data-aos-delay="50">
+            <div class="card-content">
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+                <br />
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+
+              <div class="card-content is-flex is-horizontal-center-c">
+                <figure class="image is-96x96 ">
+                  <img
+                    src="https://bulma.io/images/placeholders/96x96.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card" data-aos="flip-left" data-aos-delay="100">
+            <div class="card-content">
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+                <br />
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+
+              <div class="card-content is-flex is-horizontal-center-c">
+                <figure class="image is-96x96 ">
+                  <img
+                    src="https://bulma.io/images/placeholders/96x96.png"
+                    alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="content">
+                <p class="title is-4">John Smith</p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION  Testimonials END -->
+
+    <!-- --- -->
+
+    <!-- SECTION Call to Action: Sign Up to Newsletter -->
+    <!-- <section class="section"></section> -->
+    <!-- SECTION Call to Action: Sign Up to Newsletter END -->
+
+    <!-- --- -->
+
+    <!-- SECTION Contact Us Form -->
+    <section class="section" id="Contact">
+      <form action="">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="field-body">
+            <div class="field">
+              <p class="control is-expanded has-icons-left">
+                <input class="input" type="text" placeholder="Name" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-user"></i>
+                </span>
+              </p>
+            </div>
+            <div class="field">
+              <p class="control is-expanded has-icons-left has-icons-right">
+                <input
+                  class="input is-success"
+                  type="email"
+                  placeholder="Email"
+                  value="example@fake.com"
+                />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-check"></i>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Subject</label>
+          <div class="control has-icons-left has-icons-right">
+            <input class="input" type="text" placeholder="Subject" />
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="icon is-small is-right">
+              <i class="fas fa-check"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Textarea"></textarea>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link is-centered-c">Send</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- SECTION Contact Us Form END -->
+
+    <!-- --- -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- <div class="content has-text-centered"> -->
+      <div class="columns content has-text-centered">
+        <div class="column ">
+          <div class="columns ">
+            <div class="column"><p>Follow Us</p></div>
+          </div>
+          <div class="columns ">
+            <div class="column">
+              <div class="is-centered-c">
+                <figure class="image is-32x32 is-pulled-left is-marginless">
+                  <img
+                    src="https://img.icons8.com/doodle/48/000000/facebook-new.png"
+                  />
+                </figure>
+                <figure class="image is-32x32 is-pulled-left is-marginless">
+                  <img
+                    src="https://img.icons8.com/doodle/48/000000/instagram--v3.png"
+                  />
+                </figure>
+                <figure class="image is-32x32 is-pulled-left is-marginless">
+                  <img
+                    src="https://img.icons8.com/doodle/48/000000/linkedin.png"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <p>Sign Up to our Monthly Newsletter</p>
+          <input class="input" type="text" placeholder="Email" />
+        </div>
+        <div class="column">
+          <p>London - UK 127, Manchaster city, London +008 728 362 278</p>
+        </div>
+      </div>
+      <!-- </div> -->
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.3.0/dist/lazyload.min.js"></script>
+    <script src="css/script.js"></script>
+  </body>
+</html>

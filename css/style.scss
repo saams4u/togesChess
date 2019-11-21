@@ -1,0 +1,81 @@
+@charset "utf-8";
+// sass --watch --no-source-map style.scss:style.css
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Hero
+.hero {
+  background-color: grey;
+  .hero-columns {
+    height: 100%;
+    width: 100%;
+    .column {
+      margin: 0;
+    }
+  }
+}
+
+.bg-img {
+  background-image: url("../imgs/hero.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #25344e;
+}
+// Footer
+$footer-padding: 3rem 1.5rem 2rem;
+
+// Custom Classes
+.is-horizontal-center-c {
+  justify-content: center;
+}
+.is-centered-c {
+  display: flex;
+  justify-content: center;
+}
+.is-vcentered-c {
+  display: flex;
+  align-items: center;
+}
+.center-img-c {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma.sass";
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
