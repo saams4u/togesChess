@@ -4,6 +4,21 @@ html {
   scroll-behavior: smooth;
 }
 
+.lazy {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.5s, filter 0.5s ease-in-out;
+}
+
+#icon-for-game {
+  padding-top: 30px;
+  margin-left: 20px;
+}
+
+.lazy:hover {
+  transform: scale(1.05);
+}
+
 .hero {
   background-color: grey;
 }
@@ -21,7 +36,6 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #25344e;
 }
 
 .is-horizontal-center-c {
@@ -2621,6 +2635,8 @@ a.box:active {
   width: 24px;
 }
 .image.is-32x32 {
+  margin-top: 5px;
+  margin-left: 5px;
   height: 32px;
   width: 32px;
 }
