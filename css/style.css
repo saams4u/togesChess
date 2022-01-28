@@ -31,7 +31,7 @@ html {
 }
 
 .bg-img {
-  background-image: url("../imgs/hero.jpg");
+  background-image: url("../imgs/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
