@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
 .lazy {
   border-radius: 10px;
