@@ -7,7 +7,7 @@ html {
 .lazy {
   border-radius: 10px;
   cursor: pointer;
-  /* transition: transform 0.5s, filter 0.5s ease-in-out; */
+  transition: transform 0.5s, filter 0.5s ease-in-out;
 }
 
 .item-brand {
