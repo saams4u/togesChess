@@ -12705,14 +12705,14 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     overflow: auto;
   }
 
-  /* html.has-navbar-fixed-top-touch,
+  html.has-navbar-fixed-top-touch,
 body.has-navbar-fixed-top-touch {
     padding-top: 3.25rem;
   }
   html.has-navbar-fixed-bottom-touch,
 body.has-navbar-fixed-bottom-touch {
     padding-bottom: 3.25rem;
-  } */
+  }
 }
 @media screen and (min-width: 1024px) {
   .navbar,
