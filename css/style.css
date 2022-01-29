@@ -10,6 +10,10 @@ html {
   transition: transform 0.5s, filter 0.5s ease-in-out;
 }
 
+#add-space {
+  margin-top: 1px;
+}
+
 .item-brand {
   align-items: stretch;
   display: flex;
