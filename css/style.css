@@ -2810,7 +2810,7 @@ a.box:active {
 .progress.is-dark:indeterminate {
   background-image: linear-gradient(to right, #363636 30%, #ededed 30%);
 }
-.progress.is-primary::-webkit-progress-value {
+/* .progress.is-primary::-webkit-progress-value {
   background-color: #8a4d76;
 }
 .progress.is-primary::-moz-progress-bar {
@@ -2818,7 +2818,7 @@ a.box:active {
 }
 .progress.is-primary::-ms-fill {
   background-color: #8a4d76;
-}
+} */
 /* .progress.is-primary:indeterminate {
   background-image: linear-gradient(to right, #8a4d76 30%, #ededed 30%);
 } */
