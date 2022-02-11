@@ -2713,10 +2713,10 @@ a.box:active {
   background-color: #363636;
   color: #fff;
 }
-.notification.is-primary {
+/* .notification.is-primary {
   background-color: #8a4d76;
   color: #fff;
-}
+} */
 .notification.is-link {
   background-color: #fa7c91;
   color: #fff;
