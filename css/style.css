@@ -2713,10 +2713,10 @@ a.box:active {
   background-color: #363636;
   color: #fff;
 }
-/* .notification.is-primary {
+.notification.is-primary {
   background-color: #8a4d76;
   color: #fff;
-} */
+}
 .notification.is-link {
   background-color: #fa7c91;
   color: #fff;
@@ -2819,9 +2819,9 @@ a.box:active {
 .progress.is-primary::-ms-fill {
   background-color: #8a4d76;
 }
-.progress.is-primary:indeterminate {
+/* .progress.is-primary:indeterminate {
   background-image: linear-gradient(to right, #8a4d76 30%, #ededed 30%);
-}
+} */
 .progress.is-link::-webkit-progress-value {
   background-color: #fa7c91;
 }
